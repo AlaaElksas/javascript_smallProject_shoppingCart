@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #FDDEFD;
+}
+.container {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item{
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.item img{
+    border-radius: 20px;
+    margin: 20px 0;
+    width: 180px;
+    height: 180px;
+}
+input{
+    width: 190px;
+    height: 30px;
+    font-size: large;
+}
+button .fa-solid {
+    display: none;
+}
+button .fa-heart {
+    color: red;
+}
+button {
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: large;
+}
+button .fa-solid.active {
+    display: flex;
+    color: red;
+}
+button .fa-regular.active {
+    display: none;
+}
+.total-price{
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
