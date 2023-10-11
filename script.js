@@ -3,7 +3,7 @@ const itemTotal = document.getElementsByClassName('item-total');
 const total = document.getElementsByClassName('total')[0];
 const number = document.getElementsByClassName('number');
 const likeBtn = document.getElementsByClassName('like-btn');
-const removeBtn = document.querySelectorAll('.remove-btn');
+const removeBtn = document.querySelectorAll('.remove-btn'); //here we need these elements to be in static position 
 const cards = document.getElementsByClassName('item');
 
 // prices of each item
